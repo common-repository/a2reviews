@@ -1,0 +1,58 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+#a2review-settings{
+	max-width: 800px;
+	display: none;
+}
+ 
+body .el-notification{
+	z-index: 99999!important;
+}
+
+
+#a2review-settings .el-select{
+	min-width: 200px;
+}
+
+.column-a2reviews i.el-rate__icon{
+	margin-right: 0;
+}
+
+th.column-a2reviews{
+	width: 120px;
+	text-align: center;
+}
+
+td.column-a2reviews{
+	text-align: center;
+}
+
+#a2review-settings .el-input--small .el-input__inner{
+	background-color: #FFF;
+}
+
+#a2review-settings .el-radio-button__orig-radio:checked+.el-radio-button__inner {
+    color: #FFF;
+    background-color: #0073aa;
+    border-color: #0073aa;
+    -webkit-box-shadow: -1px 0 0 0 #0073aa;
+    box-shadow: -1px 0 0 0 #0073aa;
+}
+
+#a2review-settings .el-button--primary {
+    color: #FFF;
+    background-color: #0073aa;
+    border-color: #0073aa;
+}
+
+#a2review-settings .el-button--primary.is-disabled, 
+#a2review-settings .el-button--primary.is-disabled:active, 
+#a2review-settings .el-button--primary.is-disabled:focus, 
+#a2review-settings .el-button--primary.is-disabled:hover {
+    color: #FFF;
+    background-color: #75b6d6;
+    border-color: #75b6d6;
+}

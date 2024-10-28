@@ -1,0 +1,63 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+body.woocommerce #primary,
+body.woocommerce-checkout #primary {
+	width: 100%;
+}
+
+a2reviews-block{
+	clear: both;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+a2reviews-block[show-loading]{
+	opacity: 1!important;
+}
+
+@media (min-width: 768px){
+	body.a2reviews .single-product div.product{
+		clear: both;
+	}
+
+	body.a2reviews .woocommerce-tabs ul.tabs {
+	    width: 100%;
+	    float: left;
+	    margin-right: 0;
+	    text-align: center;
+	}
+	
+	body.a2reviews .woocommerce-tabs ul.tabs li{
+		display: inline-block;
+	}
+	
+	body.a2reviews .woocommerce-tabs ul.tabs li a{
+		padding: 15px 30px;
+	}
+	
+	body.a2reviews .woocommerce-tabs .panel {
+	    width: 100%;
+	    clear: both;
+	}
+	
+	body.a2reviews .woocommerce-tabs .a2reviews-wrapper{
+		padding: 0 10px;
+	}
+	
+	body.a2reviews .storefront-breadcrumb {
+    	margin: 0;
+	}
+	
+	.a2-content-area .site-main{
+		float: left;
+		width: 100%;
+	}
+	
+	body.a2reviews a2-reviews{
+		margin-top: 0;
+	}
+}
